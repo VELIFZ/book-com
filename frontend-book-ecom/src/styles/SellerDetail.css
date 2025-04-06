@@ -1,0 +1,100 @@
+.seller-detail-container {
+  padding: 2rem 0;
+}
+
+.seller-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.seller-avatar {
+  width: 120px;
+  height: 120px;
+  font-size: 3rem;
+}
+
+.seller-info {
+  flex-grow: 1;
+}
+
+.seller-name-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.seller-description {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--background-default);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box svg {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.specialties-container {
+  margin: 2rem 0;
+}
+
+.specialty-chip {
+  margin: 0.25rem;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.books-section {
+  margin-top: 3rem;
+}
+
+.back-button {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+  .seller-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .seller-name-container {
+    justify-content: center;
+  }
+
+  .stat-box {
+    padding: 1rem;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+} 

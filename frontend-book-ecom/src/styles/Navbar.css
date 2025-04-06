@@ -1,0 +1,165 @@
+/* Main Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Top Navbar Toolbar */
+.navbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 16px;
+}
+
+/* Logo Styles */
+.navbar-logo {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-transform: none;
+  color: #1976d2;
+  display: flex;
+  align-items: center;
+}
+
+/* Search Box Styles */
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 24px;
+  transition: background-color 0.2s;
+}
+
+.search-box:hover {
+  background-color: #eeeeee;
+}
+
+.search-input {
+  padding: 8px 16px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.search-button {
+  color: #757575;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  text-transform: none;
+  font-weight: 500;
+}
+
+.cart-button {
+  position: relative;
+  overflow: visible;
+  transition: transform 0.2s ease;
+  margin-left: 12px !important;
+}
+
+.cart-button:hover {
+  transform: scale(1.1);
+  color: #1976d2;
+}
+
+/* Bottom Navbar Styles */
+.bottom-navbar {
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav-buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.bottom-nav-button {
+  text-transform: none;
+  font-weight: 500;
+  letter-spacing: 0;
+  min-width: 0;
+  padding: 6px 16px;
+}
+
+.sell-button {
+  text-transform: none;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-left: 12px !important;
+  transition: transform 0.2s;
+}
+
+.sell-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .search-box {
+    max-width: 300px;
+  }
+  
+  .search-input::placeholder {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-toolbar {
+    height: 60px;
+    padding: 0 8px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.25rem;
+  }
+  
+  .search-box {
+    margin: 0 8px;
+    max-width: 150px;
+  }
+  
+  .search-input {
+    padding: 4px 8px;
+  }
+  
+  .nav-button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+  
+  .bottom-navbar {
+    height: 40px;
+    padding: 0 8px;
+  }
+  
+  .bottom-nav-button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+  
+  .sell-button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+}

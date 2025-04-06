@@ -1,0 +1,33 @@
+# Backend
+backend-book-ecom/venv/
+backend-book-ecom/__pycache__/
+backend-book-ecom/**/__pycache__/
+backend-book-ecom/**/*.pyc
+backend-book-ecom/**/*.pyo
+backend-book-ecom/**/*.pyd
+backend-book-ecom/.env
+backend-book-ecom/NOTES.md
+backend-book-ecom/NOTES2.md
+backend-book-ecom/FIX_DELETE_BOOKS_README.md
+
+# Frontend
+frontend-book-ecom/node_modules/
+frontend-book-ecom/dist/
+frontend-book-ecom/dist-ssr/
+frontend-book-ecom/*.local
+frontend-book-ecom/logs
+frontend-book-ecom/*.log
+frontend-book-ecom/.env
+frontend-book-ecom/NOTES.md
+frontend-book-ecom/NOTES2.md
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

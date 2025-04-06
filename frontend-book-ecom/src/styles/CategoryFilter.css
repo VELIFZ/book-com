@@ -1,0 +1,30 @@
+.category-filter {
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.category-filter .MuiButtonGroup-root {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-filter .MuiButton-root {
+  min-width: 100px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+  .category-filter {
+    padding: 16px 0;
+    overflow-x: auto;
+  }
+  
+  .category-filter .MuiButtonGroup-root {
+    flex-wrap: nowrap;
+  }
+  
+  .category-filter .MuiButton-root {
+    min-width: 80px;
+    padding: 6px 12px;
+  }
+} 

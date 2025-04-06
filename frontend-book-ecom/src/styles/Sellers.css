@@ -1,0 +1,121 @@
+.sellers-container {
+  padding: 2rem 0;
+}
+
+.seller-card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--background-paper);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.seller-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.seller-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--divider);
+}
+
+.seller-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+
+.seller-info {
+  flex-grow: 1;
+}
+
+.seller-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.seller-owner {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.seller-content {
+  padding: 1rem;
+}
+
+.seller-description {
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.seller-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--divider);
+  border-bottom: 1px solid var(--divider);
+}
+
+.seller-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.seller-stat-icon {
+  color: var(--primary-color);
+}
+
+.seller-join-date {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin-top: 1rem;
+}
+
+.seller-actions {
+  padding: 1rem;
+  border-top: 1px solid var(--divider);
+}
+
+.visit-store-button {
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 600px) {
+  .seller-card {
+    margin-bottom: 1rem;
+  }
+  
+  .seller-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  .seller-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .seller-avatar {
+    margin: 0 0 1rem 0;
+  }
+} 

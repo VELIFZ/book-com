@@ -1,0 +1,155 @@
+.sell-book-container {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.sell-book-title {
+  margin-bottom: 32px;
+  margin-top: 32px;
+  font-weight: 500;
+}
+
+.sell-book-paper {
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.sell-book-form {
+  width: 100%;
+}
+
+.form-description {
+  margin-bottom: 24px;
+  padding: 12px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border-left: 4px solid #3f51b5;
+}
+
+.form-field {
+  margin-bottom: 8px;
+}
+
+.select-error {
+  margin-left: 14px;
+  margin-top: 4px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.cancel-button, .submit-button {
+  min-width: 140px;
+}
+
+.submit-button {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-progress {
+  margin-right: 8px;
+}
+
+.error-alert {
+  margin-bottom: 24px;
+}
+
+.success-snackbar {
+  bottom: 20px;
+}
+
+/* Image upload styles */
+.image-tabs {
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.image-input-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hidden-file-input {
+  display: none;
+}
+
+.upload-button-label {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.upload-error {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.image-upload-container {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.image-preview-container {
+  margin-top: 16px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.image-preview {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.delete-image-button {
+  position: absolute !important;
+  top: -12px;
+  right: -12px;
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.file-name {
+  display: block;
+  margin-top: 8px;
+  color: #666;
+  font-size: 0.75rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .sell-book-paper {
+    padding: 16px;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .cancel-button, .submit-button {
+    width: 100%;
+  }
+}
+
+.tab-label-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.warning-icon {
+  margin-left: 8px;
+  font-size: 0.9rem;
+  color: #f57c00;
+} 

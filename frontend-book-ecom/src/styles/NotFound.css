@@ -1,0 +1,23 @@
+.not-found-paper {
+  padding: 48px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.not-found-icon {
+  font-size: 100px;
+  color: #f44336; /* error.main */
+  margin-bottom: 16px;
+}
+
+.not-found-message {
+  margin-bottom: 32px;
+}
+
+.not-found-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+} 
